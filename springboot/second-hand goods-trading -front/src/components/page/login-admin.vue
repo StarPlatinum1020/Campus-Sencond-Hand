@@ -19,7 +19,7 @@
                         <el-button type="primary" @click="login">登录</el-button>
                         <el-button type="warning" autocomplete="off" @click="$router.push('/login')" style="margin-left: 20px">返回前台</el-button>
                     </div>
-                  <div style="padding-top: 20px"><a href="http://www.java1234.com/a/bysj/javaweb/" target="_blank"><font color="red"><h>java1234收藏整理</h></font></a></div>
+                  <div style="padding-top: 20px"><a href="http://www.stu.edu.cn/kstd.htm" target="_blank"><font color="#1e90ff"><h>汕大快速通道</h></font></a></div>
                 </el-form>
             </div>
         </el-card>
@@ -67,6 +67,7 @@
         height: 100vh;
         width: 100%;
         background-color: #f1f1f1;
+
     }
     .login-body {
         padding: 30px;

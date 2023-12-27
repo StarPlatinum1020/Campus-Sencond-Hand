@@ -2,7 +2,7 @@
     <div class="login-container" >
         <el-card class="box-card">
             <div class="login-body">
-                <div class="login-title" @click="toIndex" >校园交易平台</div>
+                <div class="login-title" @click="toIndex" >校园二手交易平台</div>
                 <el-form ref="form" :model="userForm">
                     <el-input placeholder="请输入账号..." v-model="userForm.accountNumber" class="login-input">
                         <template slot="prepend">
@@ -23,7 +23,7 @@
 
                         <router-link to="/login-admin" class="sign-in-text">管理员登录</router-link>
                     </div>
-                  <div><a href="http://www.java1234.com/a/bysj/javaweb/" target="_blank"><font color="red"><h>java1234收藏整理</h></font></a></div>
+                  <div><a href="http://www.stu.edu.cn/kstd.htm" target="_blank"><font color="#1e90ff"><h>汕大快速通道</h></font></a></div>
                 </el-form>
             </div>
         </el-card>
